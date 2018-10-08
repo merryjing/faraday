@@ -87,7 +87,7 @@ class FaradayUi(object):
             raise e
         return ws
     def createWorkspace(self, name):
-        """Create a workspace by name. Returns the workspace of raises an
+        """Create a workspace by the name. Returns the workspace of raises an
         exception if for some reason it couldn't.
         """
         if self.report_manager:
